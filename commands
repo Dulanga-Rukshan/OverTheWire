@@ -1,0 +1,45 @@
+level 0 
+flag for 0 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+    command - cat readme
+
+level 1 
+flag for 1 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+    command - cat ./-
+
+level 2 
+flag for 2 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+    command - cat ./--spaces\ in\ this\ filename--
+
+level 3 
+flag for 3 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+    command i used - cat ./...HIding-From-You
+
+levl 4 
+flag for 4 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+    command i used - first determine the human readable file by
+        file ./-*
+        then cat ./-file07s
+
+level 5 
+flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+            Permission	Sum of values	Digit	\
+            No permissions	0	---	
+            Execute only	1	--x	
+            Write only  	2	-w-	
+            Write + Execute	3	-wx	
+            Read only	    4	r--	
+            Read + Execute	5	r-x	
+            Read + Write	6	rw-	
+            Read + Write + Execute	7	rwx
+
+            found the command by find, first i below the command that i used
+
+                find ./ -type f -size 1033c -exec file {} \; 
+                        this is to find a the file and check whether it is human readable or not 
+
+                find ./ -type f -size 1033c -exec cat {} \; 
+                        this is to run cat command to see which data contain in that file 
+                        
+
+level 6 
+flag for 6 - 
