@@ -42,4 +42,9 @@ flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
                         
 
 level 6 
-flag for 6 - 
+flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+ command i used for that one is 
+            find / -type f -size 33c -user bandit7 -group bandit6 
+             
+        this gives me a error with permission denied so i added a extra thing 
+            find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null 
