@@ -48,3 +48,11 @@ flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
              
         this gives me a error with permission denied so i added a extra thing 
             find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null 
+
+
+level 7 
+flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+ command i used for this section is - 
+            cat data.txt | grep millionth 
+
+            first i see the content in file and pipe it through grep to search millionth
