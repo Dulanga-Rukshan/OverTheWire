@@ -56,3 +56,5 @@ flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
             cat data.txt | grep millionth 
 
             first i see the content in file and pipe it through grep to search millionth
+
+        
