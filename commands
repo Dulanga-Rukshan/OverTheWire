@@ -71,4 +71,19 @@ flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
                 strings data.txt | grep =
 
                 first get humanreadable and grep = 
-                then the password
+                then the password 
+
+level 10 
+flag for level 10 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+                command i used for this level is 
+                    base64 -d data.txt 
+
+                    first using base64 -d to decode simmilarly i can use base64 --decode then file name 
+                    then the password appear
+
+level 11 
+flag for level 11 -  7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+                        this is rot13 alrorithm 
+                        command i used here is 
+
+                        cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
