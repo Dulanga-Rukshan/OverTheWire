@@ -58,3 +58,17 @@ flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
             first i see the content in file and pipe it through grep to search millionth
 
         
+level 8 
+flag for level 8 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+ command i used for this section is 
+            sort data.txt | uniq -u 
+
+            first sort the data in data.txt and then use uniq -u to remove any duplicates and print the uniq one
+
+level 9 
+flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+   command i used for this level is 
+                strings data.txt | grep =
+
+                first get humanreadable and grep = 
+                then the password
