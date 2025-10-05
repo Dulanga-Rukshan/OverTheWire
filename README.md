@@ -1,26 +1,26 @@
-level 0 to 1
+🌟 level 0 to 1
 flag for 0 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
     command - cat readme
 
-level 1 to 2
+🌟 level 1 to 2
 flag for 1 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
     command - cat ./-
 
-level 2 to 3
+🌟 level 2 to 3
 flag for 2 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
     command - cat ./--spaces\ in\ this\ filename--
 
-level 3 to 4
+🌟 level 3 to 4
 flag for 3 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
     command i used - cat ./...HIding-From-You
 
-levl 4 to 5
+🌟 level 4 to 5
 flag for 4 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
     command i used - first determine the human readable file by
         file ./-*
         then cat ./-file07s
 
-level 5 to 6 
+🌟 level 5 to 6 
 flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
             Permission	Sum of values	Digit	\
             No permissions	0	---	
@@ -41,7 +41,7 @@ flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
                         this is to run cat command to see which data contain in that file 
                         
 
-level 6 to 7
+🌟 level 6 to 7
 flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
  command i used for that one is 
             find / -type f -size 33c -user bandit7 -group bandit6 
@@ -50,7 +50,7 @@ flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
             find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null 
 
 
-level 7 to 8
+🌟 level 7 to 8
 flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
  command i used for this section is - 
             cat data.txt | grep millionth 
@@ -58,14 +58,14 @@ flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
             first i see the content in file and pipe it through grep to search millionth
 
         
-level 8 to 9
+🌟 level 8 to 9
 flag for level 8 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
  command i used for this section is 
             sort data.txt | uniq -u 
 
             first sort the data in data.txt and then use uniq -u to remove any duplicates and print the uniq one
 
-level 9 to 10
+🌟 level 9 to 10
 flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
    command i used for this level is 
                 strings data.txt | grep =
@@ -73,7 +73,7 @@ flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
                 first get humanreadable and grep = 
                 then the password 
 
-level 10 to 11
+🌟 level 10 to 11
 flag for level 10 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
                 command i used for this level is 
                     base64 -d data.txt 
@@ -81,14 +81,14 @@ flag for level 10 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
                     first using base64 -d to decode simmilarly i can use base64 --decode then file name 
                     then the password appear
 
-level 11 to 12
+🌟 level 11 to 12
 flag for level 11 -  7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
                         this is rot13 alrorithm 
                         command i used here is 
 
                         cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"   
 
-level 12 to 13
+🌟 level 12 to 13
 flag for level 11 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
                 first i used command is 
                 step 01 
