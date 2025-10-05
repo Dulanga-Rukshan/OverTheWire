@@ -129,6 +129,6 @@ flag for level 11 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
                                 cp bzip2 gzip2.gz 
                                 gzip -d gzip2.gz
 
-                        now it is a tar archive file 
+                    ![bandit 12 image](images/bandit%2012%20to%2013.png)       
 
                             
