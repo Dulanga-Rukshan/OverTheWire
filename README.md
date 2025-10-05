@@ -1,3 +1,18 @@
+
+# bandit-LEVEL-walkthrough (Redacted)
+
+## Warning
+This repo contains step-by-step walkthroughs for Bandit levels with **flags redacted** to avoid spoilers. Commands and reasoning are provided.
+
+---
+
+## Objectives
+- Show commands used to locate and extract the flag.
+- Explain why each command helps.
+- Provide a small practice file that mimics the challenge (no real flags).
+
+
+
 🌟 level 0 to 1
     command - cat readme
 
