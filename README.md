@@ -1,27 +1,21 @@
 🌟 level 0 to 1
-flag for 0 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
     command - cat readme
 
 🌟 level 1 to 2
-flag for 1 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
     command - cat ./-
 
 🌟 level 2 to 3
-flag for 2 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
     command - cat ./--spaces\ in\ this\ filename--
 
 🌟 level 3 to 4
-flag for 3 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
     command i used - cat ./...HIding-From-You
 
 🌟 level 4 to 5
-flag for 4 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
     command i used - first determine the human readable file by
         file ./-*
         then cat ./-file07s
 
 🌟 level 5 to 6 
-flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
             Permission	Sum of values	Digit	\
             No permissions	0	---	
             Execute only	1	--x	
@@ -42,7 +36,6 @@ flag for 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
                         
 
 🌟 level 6 to 7
-flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
  command i used for that one is 
             find / -type f -size 33c -user bandit7 -group bandit6 
              
@@ -51,7 +44,6 @@ flag for 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 
 🌟 level 7 to 8
-flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
  command i used for this section is - 
             cat data.txt | grep millionth 
 
@@ -59,14 +51,12 @@ flag for 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
         
 🌟 level 8 to 9
-flag for level 8 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
  command i used for this section is 
             sort data.txt | uniq -u 
 
             first sort the data in data.txt and then use uniq -u to remove any duplicates and print the uniq one
 
 🌟 level 9 to 10
-flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
    command i used for this level is 
                 strings data.txt | grep =
 
@@ -74,7 +64,6 @@ flag for level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
                 then the password 
 
 🌟 level 10 to 11
-flag for level 10 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
                 command i used for this level is 
                     base64 -d data.txt 
 
@@ -82,14 +71,12 @@ flag for level 10 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
                     then the password appear
 
 🌟 level 11 to 12
-flag for level 12 -  7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
                         this is rot13 alrorithm 
                         command i used here is 
 
                         cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"   
 
 🌟 level 12 to 13
-flag for level 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
                 first i used command is 
                 step 01 
                         *    xxd -r data.txt output
@@ -134,7 +121,6 @@ flag for level 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
                             
 🌟 level 13 to 14
-flag for level 14 - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
      command i used for this level is 
         ssh -i ./sshkey.private bandit14@bandit.labs.overthewire.org -p 2220 
 
@@ -142,4 +128,7 @@ flag for level 14 - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 
 🌟 level 14 to 15
-flag for level 15 - 
+        command i used for this level is 
+            telnet localhost 30000
+            
+            and enter the password for level 14 
