@@ -1,15 +1,14 @@
 
-# bandit-LEVEL-walkthrough (Redacted)
+# bandit level walkthrough  
 
 ## Warning
-This repo contains step-by-step walkthroughs for Bandit levels with **flags redacted** to avoid spoilers. Commands and reasoning are provided.
+This repo contains step by step walkthroughs for Bandit levels. Commands and reasoning are provided.
 
 ---
 
 ## Objectives
 - Show commands used to locate and extract the flag.
 - Explain why each command helps.
-- Provide a small practice file that mimics the challenge (no real flags).
 
 
 
@@ -147,3 +146,13 @@ This repo contains step-by-step walkthroughs for Bandit levels with **flags reda
             telnet localhost 30000
             
             and enter the password for level 14 
+
+🌟 level 15 to 16
+    command i used for this command is 
+        ncat -l -p localhost 30001
+
+        then enter the password for level 15 
+
+🌟 level 16 to 17 
+    command i used for this level is 
+        
